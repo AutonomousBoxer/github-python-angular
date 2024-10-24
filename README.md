@@ -9,6 +9,35 @@ This project follows RESTful principles to design the backend, making it easier 
 - **PUT**: Update an existing resource on the server.
 - **DELETE**: Remove a resource from the server.
 
+## Setting up and running the backend
+
+1. Create a virtual environment:
+   ```sh
+   python -m venv venv
+   ```
+
+2. Activate the virtual environment:
+   - On Windows:
+     ```sh
+     venv\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```sh
+     source venv/bin/activate
+     ```
+
+3. Install the dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+4. Run the Flask application:
+   ```sh
+   flask run
+   ```
+
+5. The backend will be available at `http://localhost:5000`.
+
 ### Endpoints
 
 Here are some examples of endpoints and their corresponding HTTP methods:
@@ -38,3 +67,22 @@ The following status codes are used to indicate the result of each operation:
 - **400 Bad Request**: The request was invalid or cannot be served.
 - **404 Not Found**: The requested resource could not be found.
 - **500 Internal Server Error**: An error occurred on the server.
+
+## Setting up and running the Angular frontend
+
+1. Navigate to the `frontend` directory:
+   ```sh
+   cd frontend
+   ```
+
+2. Install the dependencies:
+   ```sh
+   npm install
+   ```
+
+3. Start the Angular development server:
+   ```sh
+   ng serve
+   ```
+
+4. Open your browser and navigate to `http://localhost:4200` to see the Angular frontend in action.
