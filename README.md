@@ -38,7 +38,7 @@ This project follows RESTful principles to design the backend, making it easier 
 
 5. The backend will be available at `http://localhost:5000`.
 
-### Endpoints
+## Endpoints
 
 Here are some examples of endpoints and their corresponding HTTP methods:
 
@@ -57,7 +57,7 @@ Here are some examples of endpoints and their corresponding HTTP methods:
   - `PUT /posts/<id>`: Update a specific post by ID.
   - `DELETE /posts/<id>`: Delete a specific post by ID.
 
-### Status Codes
+## Status Codes
 
 The following status codes are used to indicate the result of each operation:
 
