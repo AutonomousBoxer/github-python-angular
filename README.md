@@ -30,6 +30,11 @@ This project follows RESTful principles to design the backend, making it easier 
    ```sh
    pip install -r requirements.txt
    ```
+3.1 May need to update flask to have the correct version for Werkzeug:
+
+   ```sh
+   pip install -U flask
+   ```
 
 4. Run the Flask application:
    ```sh
